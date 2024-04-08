@@ -6,11 +6,11 @@ class MultiDictionary:
     def __init__(self):
         self._english = d.Dictionary([], "english")
         self._italian = d.Dictionary([], "italian")
-        self._spanish = d.Dictionary([], "spanish")
+        #self._spanish = d.Dictionary([], "spanish")
 
         self._english.loadDictionary("resources/English.txt")
         self._italian.loadDictionary("resources/Italian.txt")
-        self._spanish.loadDictionary("resources/Spanish.txt")
+        #self._spanish.loadDictionary("resources/Spanish.txt")
 
     def printDic(self, language):
         if language == "english":

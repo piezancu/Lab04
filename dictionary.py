@@ -1,4 +1,5 @@
 class Dictionary:
+    #sono necessari gli "=.." nei parametri dell'__init__?
     def __init__(self, dict=[], language = ""):
         self._dict = dict
         self._language = language
